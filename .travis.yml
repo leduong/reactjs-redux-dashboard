@@ -1,0 +1,21 @@
+sudo: false
+
+language: node_js
+node_js:
+- '8'
+- '9'
+- '10'
+
+cache:
+  directories:
+    - node_modules
+
+before_install: if [[ `npm -v` != 6* ]]; then npm i -g npm@6; fi
+after_script:
+  - npm run test
+  - npm run build
+  - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+
+notifications:
+  slack: leduong:8FHnajypcfOykiQS6Hn6QBB5
+repo_token: g4rVXpTONUrthwEmFuUsto2whAKcrPgjF

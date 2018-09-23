@@ -1,4 +1,6 @@
-# Reactjs Redux Dashboard
+# Sorry, it's not public
+
+## Hire me for work
 
 [![Paypal](https://img.shields.io/badge/donate-paypal-blue.svg)](https://goo.gl/mgesnb)
 [![Gratipay Team](https://img.shields.io/badge/give-a%20cup%20of%20coffee-b35900.svg)](https://goo.gl/mgesnb)
@@ -33,16 +35,16 @@ _If you like this idea, please fork it. If you like it better, give me a cup of 
 - Redux
 - Redux-Saga
 - React	Router 4
-- Webpack 3
+- Webpack	3
 - ImmutableJS
-- Ant Design
+- Ant	Design
 - Google Map
 - React	Big	Calendar
 - React	Flip Move
 - React	Google Charts
 - Recharts
 - React Vis
-- React Chart 2
+- React Chart	2
 - React Trend
 - Echart
 - React	Grid Layout
@@ -56,32 +58,3 @@ _If you like this idea, please fork it. If you like it better, give me a cup of 
 - ExpressJS
 
 ALL support Auth and Database with Firebase
-
-## Installation
-
-- Install NodeJS
-- Install npm
-- Install yarn
-
-Install	Packages & Dependencies
-
-```bash
-$ yarn start
-$ yarn build
-```
-
-Installing Node	& NPM:
-
-- To work with ReactDDS the first thing	you	need is to have Node	install on your system. To make sure you have already Nodejs installed on your system you may follow the below instructions
-
-- As Node will make sure you have node and npm commands are available via command line, just run the below command on your terminal
-
-```bash
-$ node -v
-$ npm -v
-```
-
-On successful installation, it will print out the respective versions. Make sure you have all the latest stable version install to get better performance.
-
-
-#### Thanks of alot
